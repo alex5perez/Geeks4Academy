@@ -1,0 +1,55 @@
+body {
+	background: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.textHeader{
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 1%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemento {
+    margin: 10px;
+}
+
+.box{
+    background: white;
+    margin: 2%;
+    width: 590px;
+    overflow: hidden;
+}
+
+.boxHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h1{
+    font-size: 30px;
+    margin: 14px;
+}
+
+.box h3{
+    color: grey;
+    margin: 20px;
+    font-weight: 200;
+}
+
+img{
+    height: 397px;
+    width: 595px;
+}
+
+.boxFooter p{
+    margin: 2%;
+}
